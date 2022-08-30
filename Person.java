@@ -1,4 +1,5 @@
 abstract class Person {
+    
     protected String name;
     protected int age;
 
@@ -9,7 +10,7 @@ abstract class Person {
 
     @Override
     public String toString() {
-        return "Person [date_of_brith=" + age + ", name=" + name + "]";
+        return "Person [age=" + age + ", name=" + name + "]";
     }
 
     public String getName() {

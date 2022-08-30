@@ -5,5 +5,4 @@ public enum Relation {
     CHILD,
     SISTER,
     BROTHER,
-
 }
